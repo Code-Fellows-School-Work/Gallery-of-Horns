@@ -1,10 +1,10 @@
 // used John's code from lab demo as a template
 import React from 'react';
 
-function Header( props ) {
+function Header() {
   return (
     <header>
-      <h1>Hello World</h1>
+      <h1>Gallery of Horns</h1>
     </header>
   )
 }
