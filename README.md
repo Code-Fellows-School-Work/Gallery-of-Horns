@@ -11,3 +11,33 @@ Currently, two official plugins are available:
 
 - Used John's code during class demo as a reference and template for header, gallery, footer, and hornedbeast components.
 - Used ChatGPT to write the images markup in HornedBeast component
+
+Number and name of feature: Feature #1: Display Images
+
+Estimate of time needed to complete: 45 minutes
+
+Start time: _____
+
+Finish time: _____
+
+Actual time needed to complete: _____
+
+Number and name of feature: Feature #2: Allow users to Favorite Individual Beasts
+
+Estimate of time needed to complete: 45 minutes
+
+Start time: _____
+
+Finish time: _____
+
+Actual time needed to complete: 45 minutes
+
+Number and name of feature: Feature #3: Bootstrap
+
+Estimate of time needed to complete: _____
+
+Start time: _____
+
+Finish time: _____
+
+Actual time needed to complete: _____
