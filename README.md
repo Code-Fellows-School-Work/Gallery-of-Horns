@@ -18,9 +18,13 @@ Estimate of time needed to complete: 45 minutes
 
 Start time: 3:51pm
 
-Finish time: _____
+Stopped at 5:15pm for a break
 
-Actual time needed to complete: _____
+Restarted at 6:50pm
+
+Finish time: 7:20pm
+
+Actual time needed to complete: 114 minutes
 
 Number and name of feature: Feature #2: Allow users to Favorite Individual Beasts
 
