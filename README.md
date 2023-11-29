@@ -16,7 +16,7 @@ Number and name of feature: Feature #1: Display Images
 
 Estimate of time needed to complete: 45 minutes
 
-Start time: _____
+Start time: 3:51pm
 
 Finish time: _____
 
