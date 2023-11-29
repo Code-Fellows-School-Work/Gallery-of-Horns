@@ -2,6 +2,9 @@
 // used ChatGPT to write the code to keep track of state
 import React, { useState } from 'react';
 import { FaHeart } from 'react-icons/fa';
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
 
 // used ChatGPT to determine how to combine h2, img and p tag in one div
 // used ChatGPT to write the props.title, img src, and description
@@ -16,17 +19,22 @@ function HornedBeast(props) {
   };
 
   return (
-    <div>
-      <h2>{props.title}</h2>
-      <img src={props.image_url} alt={props.title} />
-      <p>{props.description}</p>
-      <p>
-        <button onClick={handleFavoriteClick}>
-          <FaHeart /> 
-        </button>
-        <span> {favorites}</span>
-      </p>
-    </div>
+    <Container fluid>
+      <Row>
+        <Col xs={12} sm={6} md={4} lg={3}>
+          <div>
+            <h2>{props.title}</h2>
+            <div onClick={handleFavoriteClick} style={{ cursor: 'pointer' }}>
+              <img src={props.image_url} alt={props.title} style={{ width: '10%', height: 'auto' }} />
+            </div>
+            <p>{props.description}</p>
+            <p>
+              <FaHeart /> {favorites} Favorites
+            </p>
+          </div>
+        </Col>
+      </Row>
+    </Container>
   );
 }
 
