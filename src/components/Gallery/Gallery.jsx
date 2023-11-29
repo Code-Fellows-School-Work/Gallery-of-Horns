@@ -5,10 +5,8 @@ import HornedBeast from '/home/evidad/codefellows/courses/code-301/Gallery of Ho
 function Gallery() {
   return (
     <div>
-    <ul>
-      <li><HornedBeast/></li>
-      <li><HornedBeast/></li>
-    </ul>
+      <HornedBeast title="UniWhal" description="A unicorn and a narwhal nuzzling their horns"/>
+      <HornedBeast title="Rhino" description="Mother (or father) rhino with two babies"/>
     </div>
   )
 }
