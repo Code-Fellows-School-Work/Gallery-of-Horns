@@ -39,6 +39,7 @@ function HornedBeast(props) {
             </p>
           </div>
         </Col>
+        
       </Row>
     </Container>
   );
