@@ -9,6 +9,7 @@ function App() {
 // content is stated here and referenced in footer prop in footer component
   return (
     <>
+    
       <Header title="Gallery of Horns" />
       <Gallery />
       <Footer content="&copy; 2023 Errol Vidad"/>
