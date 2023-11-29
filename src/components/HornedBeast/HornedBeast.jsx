@@ -8,6 +8,7 @@ import Col from 'react-bootstrap/Col';
 
 // used ChatGPT to determine how to combine h2, img and p tag in one div
 // used ChatGPT to write the props.title, img src, and description
+// used ChatGPT to write container fluid and to style images to 10% width
 function HornedBeast(props) {
   // Initialize the state variable for favorites
   const [favorites, setFavorites] = useState(0);
@@ -21,11 +22,16 @@ function HornedBeast(props) {
   return (
     <Container fluid>
       <Row>
-        <Col xs={12} sm={6} md={4} lg={3}>
+        <Col>
           <div>
             <h2>{props.title}</h2>
             <div onClick={handleFavoriteClick} style={{ cursor: 'pointer' }}>
-              <img src={props.image_url} alt={props.title} style={{ width: '10%', height: 'auto' }} />
+              <img
+                src={props.image_url}
+                alt={props.title}
+                className="img-fluid"
+                style={{ width: '10%', height: 'auto' }}
+              />
             </div>
             <p>{props.description}</p>
             <p>
