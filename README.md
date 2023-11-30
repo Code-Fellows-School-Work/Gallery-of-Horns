@@ -46,6 +46,9 @@ Finish time: 9:53pm
 
 Actual time needed to complete: 28 minutes
 
+- Used ChatGPT to write modal component
+- Used ChatGPT to modify remaining components to align with modal component
+
 [Lighthouse Score](./src/assets/Lighthouse%20-%20Lab%203.PNG)
 
 Number and name of feature: Feature #4: Display a Modal
