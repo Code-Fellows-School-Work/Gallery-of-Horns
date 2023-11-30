@@ -23,6 +23,9 @@ function SelectedBeast({ show, handleClose, title, image_url, description }) {
         <Button variant="secondary" onClick={handleClose}>
           Close
         </Button>
+        <Button variant="primary" onClick={handleClose}>
+          Favorite
+        </Button>
       </Modal.Footer>
     </Modal>
   );

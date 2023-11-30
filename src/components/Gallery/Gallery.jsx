@@ -7,11 +7,15 @@ import PropTypes from 'prop-types';
 
 // used ChatGPT to write this function	function Gallery({ onBeastClick }) {
 // used ChatGPT to modify this code to display images in 3 columns that dynamically render
-function Gallery({ onBeastClick }) {
+// used ChatGPT to modify this code to handle the selectedHorn prop
+function Gallery({ onBeastClick, selectedHorn }) {
+  const filteredImages = selectedHorn
+    ? images.filter(image => image.horns === parseInt(selectedHorn, 10))
+    : images;
   return (
     <Container fluid>
       <Row xs={1} sm={2} md={3} lg={3} xl={3}>
-        {images.map((image) => (
+        {filteredImages.map((image) => (
           <Col key={image._id} className="mb-4">
             <HornedBeast
               title={image.title}
