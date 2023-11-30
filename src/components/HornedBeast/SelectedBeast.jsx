@@ -35,6 +35,7 @@ SelectedBeast.propTypes = {
   title: PropTypes.string.isRequired,
   image_url: PropTypes.string.isRequired,
   description: PropTypes.string.isRequired,
+  
 };
 
 export default SelectedBeast;
