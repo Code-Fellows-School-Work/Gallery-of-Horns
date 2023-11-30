@@ -26,7 +26,7 @@ function HornedBeast(props) {
                 src={props.image_url}
                 alt={props.title}
                 className="img-fluid"
-                style={{ width: '10%', height: 'auto' }}
+                style={{ width: '75%', height: 'auto' }}
               />
             </div>
             <p>{props.description}</p>

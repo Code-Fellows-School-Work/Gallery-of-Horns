@@ -8,6 +8,7 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
 // used ChatGPT to write this function
+// used ChatGPT to modify this code to display images in 3 columns that dynamically render
 function Gallery() {
   
   return (
