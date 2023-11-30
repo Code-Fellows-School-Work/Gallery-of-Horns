@@ -22,7 +22,8 @@ function HornedBeast({ title, image_url, description, onBeastClick }) {
         <Col sm={4}>
           <h2>{title}</h2>
           <div onClick={() => onBeastClick()} style={{ cursor: 'pointer' }}>
-            <img
+            <img 
+              onClick={handleFavoriteClick}
               src={image_url}
               alt={title}
               className="img-fluid"
