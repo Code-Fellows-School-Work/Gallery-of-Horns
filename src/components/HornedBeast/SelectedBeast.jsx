@@ -1,4 +1,3 @@
-import React from 'react';
 import PropTypes from 'prop-types';
 import Modal from 'react-bootstrap/Modal';
 import Button from 'react-bootstrap/Button';
@@ -35,7 +34,6 @@ SelectedBeast.propTypes = {
   title: PropTypes.string.isRequired,
   image_url: PropTypes.string.isRequired,
   description: PropTypes.string.isRequired,
-  
 };
 
 export default SelectedBeast;
