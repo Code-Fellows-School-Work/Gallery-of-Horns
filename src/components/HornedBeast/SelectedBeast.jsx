@@ -2,7 +2,7 @@ import { useState } from 'react';
 import Button from 'react-bootstrap/Button';
 import Modal from 'react-bootstrap/Modal';
 
-function EditEmployee() {
+function SelectedBeast() {
   const [show, setShow] = useState(false);
 
   const handleClose = () => setShow(false);
@@ -38,4 +38,4 @@ function EditEmployee() {
   );
 }
 
-export default EditEmployee;
+export default SelectedBeast;

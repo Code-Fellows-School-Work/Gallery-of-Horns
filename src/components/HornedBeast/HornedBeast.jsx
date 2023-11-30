@@ -6,7 +6,7 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import EditEmployee from './EditEmployee';
+import SelectedBeast from './SelectedBeast';
 
 // used ChatGPT to determine how to combine h2, img and p tag in one div
 // used ChatGPT to write the props.title, img src, and description
@@ -22,7 +22,7 @@ function HornedBeast(props) {
     <Container>
       <Row>
         <Col sm={4}><h2>{props.title}</h2>
-            <EditEmployee />
+            <SelectedBeast />
              <div onClick={handleFavoriteClick} style={{ cursor: 'pointer' }}>
                <img
                 src={props.image_url}
