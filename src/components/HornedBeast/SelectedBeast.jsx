@@ -1,41 +1,38 @@
-import { useState } from 'react';
-import Button from 'react-bootstrap/Button';
+import React from 'react';
+import PropTypes from 'prop-types';
 import Modal from 'react-bootstrap/Modal';
+import Button from 'react-bootstrap/Button';
 
-function SelectedBeast() {
-  const [show, setShow] = useState(false);
-
-  const handleClose = () => setShow(false);
-  const handleShow = () => setShow(true);
-
+function SelectedBeast({ show, handleClose, title, image_url, description }) {
   return (
-    <>
-      <Button variant="primary" onClick={handleShow}>
-        Launch static backdrop modal
-      </Button>
-
-      <Modal
-        show={show}
-        onHide={handleClose}
-        backdrop="static"
-        keyboard={false}
-      >
-        <Modal.Header closeButton>
-          <Modal.Title>Modal title</Modal.Title>
-        </Modal.Header>
-        <Modal.Body>
-          I will not close if you click outside me. Don not even try to press
-          escape key.
-        </Modal.Body>
-        <Modal.Footer>
-          <Button variant="secondary" onClick={handleClose}>
-            Close
-          </Button>
-          <Button variant="primary">Understood</Button>
-        </Modal.Footer>
-      </Modal>
-    </>
+    <Modal show={show} onHide={handleClose} size="lg">
+      <Modal.Header closeButton>
+        <Modal.Title>{title}</Modal.Title>
+      </Modal.Header>
+      <Modal.Body>
+        <img
+          src={image_url}
+          alt={title}
+          className="img-fluid"
+          style={{ width: '100%', height: 'auto' }}
+        />
+        <p>{description}</p>
+      </Modal.Body>
+      <Modal.Footer>
+        <Button variant="secondary" onClick={handleClose}>
+          Close
+        </Button>
+      </Modal.Footer>
+    </Modal>
   );
 }
+
+SelectedBeast.propTypes = {
+  show: PropTypes.bool.isRequired,
+  handleClose: PropTypes.func.isRequired,
+  title: PropTypes.string.isRequired,
+  image_url: PropTypes.string.isRequired,
+  description: PropTypes.string.isRequired,
+};
 
 export default SelectedBeast;
