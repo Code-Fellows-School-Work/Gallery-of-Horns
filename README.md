@@ -45,3 +45,15 @@ Start time: 9:25pm
 Finish time: 9:53pm
 
 Actual time needed to complete: 28 minutes
+
+[Lighthouse Score](./src/assets/Lighthouse%20-%20Lab%203.PNG)
+
+Number and name of feature: Feature #4: Display a Modal
+
+Estimate of time needed to complete: 180 minutes
+
+Start time: 4:35pm
+
+Finish time: 6:10pm
+
+Actual time needed to complete: 95 minutes
