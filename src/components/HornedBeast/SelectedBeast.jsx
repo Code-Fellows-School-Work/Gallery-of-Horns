@@ -3,6 +3,8 @@ import PropTypes from 'prop-types';
 import Modal from 'react-bootstrap/Modal';
 import Button from 'react-bootstrap/Button';
 
+// used ChatGPT to write the modal component and edited the remaining components to work with modal component 
+
 function SelectedBeast({ show, handleClose, title, image_url, description }) {
   return (
     <Modal show={show} onHide={handleClose} size="lg">

@@ -6,6 +6,8 @@ import SelectedBeast from './components/HornedBeast/SelectedBeast.jsx';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
+  // title is stated here and referenced in header prop in header component
+  // content is stated here and referenced in footer prop in footer component
   const [selectedBeast, setSelectedBeast] = useState(null);
 
   const handleBeastClick = (title, image_url, description) => {
