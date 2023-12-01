@@ -1,0 +1,47 @@
+/* Used ChatGPT to write styling to shrink gallery size and to center and modify size of filter specifically the .app-container, filter-container, and gallery-container */
+/* Also used ChatGPT to "add some color to the background to make the app look visually appealing" */
+body {
+  margin: 0; /* Reset default body margin */
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f5f5f5;
+}
+  
+.app-container {
+  padding: 20px;
+  background-color: #ffffff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  height: 500px;
+  width: 100%;
+  overflow-y: auto;
+  border-radius: 10px;
+}
+
+.header-container {
+  text-align: center;
+  padding: 10px;
+  background-color: #f0f0f0;
+  width: 100%;
+}
+  
+.filter-container {
+  margin: 0 auto;
+  padding: 20px;
+  max-width: 800px
+}
+  
+.gallery-container {
+  margin: 0 auto;
+  max-width: 1800px; 
+}
+
+.footer-container {
+  text-align: center;
+  padding: 10px;
+  background-color: #f0f0f0;
+  width: 100%;
+}
