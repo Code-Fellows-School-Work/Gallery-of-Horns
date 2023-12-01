@@ -18,26 +18,28 @@ function HornedBeast({ title, image_url, description, onBeastClick }) {
   };
 
   return (
-    <Container>
-      <Row>
-        <Col sm={4}>
-          <h2>{title}</h2>
-          <div onClick={() => onBeastClick()} style={{ cursor: 'pointer' }}>
-            <img 
-              onClick={handleFavoriteClick}
-              src={image_url}
-              alt={title}
-              className="img-fluid"
-              style={{ width: '100%', height: 'auto' }}
-            />
-          </div>
-          <p>{description}</p>
-          <p>
-            <FaHeart /> {favorites} Favorites
-          </p>
-        </Col>
-      </Row>
-    </Container>
+    <div className = "app-container">
+      <Container>
+        <Row>
+          <Col sm={4}>
+            <h2>{title}</h2>
+            <div onClick={() => onBeastClick()} style={{ cursor: 'pointer' }}>
+              <img 
+                onClick={handleFavoriteClick}
+                src={image_url}
+                alt={title}
+                className="img-fluid"
+                style={{ width: '100%', height: 'auto' }}
+              />
+            </div>
+            <p>{description}</p>
+            <p>
+              <FaHeart /> {favorites} Favorites
+            </p>
+          </Col>
+        </Row>
+      </Container>
+    </div>
   );
 }
 
