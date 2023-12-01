@@ -60,3 +60,20 @@ Start time: 4:35pm
 Finish time: 6:10pm
 
 Actual time needed to complete: 95 minutes
+
+- Used ChatGPT to write the forms component
+- Imported forms code from bootstrap
+- Used ChatGPT to write initial CSS styling
+- Received help from Kawika to determine proper file path for styles.css
+
+[Lighthouse Score](./src/assets/Lighthouse%20-%20Lab%204.PNG)
+
+Number and name of feature: Feature #5: Filter by Numbers of Horns
+
+Estimate of time needed to complete: 120 minutes
+
+Start time: 3:17pm
+
+Finish time: 3:33pm
+
+Actual time needed to complete: 16 minutes
