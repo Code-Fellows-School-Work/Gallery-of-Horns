@@ -33,6 +33,7 @@ function Gallery({ onBeastClick, selectedHorn }) {
 }
 
 Gallery.propTypes = {
-  onBeastClick: PropTypes.func.isRequired
+  onBeastClick: PropTypes.func.isRequired,
+  selectedHorn: PropTypes.func.isRequired
 };
 export default Gallery;

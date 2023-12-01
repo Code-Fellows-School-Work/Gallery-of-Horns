@@ -5,7 +5,7 @@ import Footer from './components/Footer/Footer.jsx';
 import SelectedBeast from './components/HornedBeast/SelectedBeast.jsx';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Form from 'react-bootstrap/Form';
-import '../src/assets/style.css';
+import '../src/css/style.css';
 
 function App() {
   // title is stated here and referenced in header prop in header component
